@@ -1,0 +1,3 @@
+.ssh/*
+entrypoint.sh
+id_rsa*

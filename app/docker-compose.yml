@@ -1,0 +1,21 @@
+version: '3.9'
+
+services:
+  socks_proxy_server:
+    tty: true
+    stdin_open: true
+    hostname: socks_proxy_server
+    build:
+      context: .
+    networks:
+      - some-shared-nw
+    volumes:
+      - ./machine/.ssh:/home/uzer/.ssh
+    # Não é necessário abrir a porta
+    # ports:
+    #   - 9099:9099
+
+networks:
+  # The network must be shared with some other service in which you want to pass through the Socks
+  some-shared-nw:
+    external: true
