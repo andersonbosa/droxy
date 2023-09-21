@@ -1,4 +1,4 @@
 .ssh/*
-entrypoint.sh
 id_rsa*
-app/docker-compose.yml
+entrypoint.sh
+docker-compose.yml
