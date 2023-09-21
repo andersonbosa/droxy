@@ -17,4 +17,5 @@ WORKDIR /home/uzer
 RUN mkdir -p ./.ssh
 
 # init entrypoint
+ENTRYPOINT [ "/entrypoint.sh" ]
 CMD [ "/entrypoint.sh" ]

@@ -11,9 +11,6 @@ services:
       - some-shared-nw
     volumes:
       - ./machine/.ssh:/home/uzer/.ssh
-    # Não é necessário abrir a porta
-    # ports:
-    #   - 9099:9099
 
 networks:
   # The network must be shared with some other service in which you want to pass through the Socks
