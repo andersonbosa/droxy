@@ -1,0 +1,115 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes rotate {
+          0% {
+            transform: rotate(1deg);
+          }
+
+          100% {
+            transform: rotate(-1deg);
+          }
+        }
+
+        @keyframes rotate2 {
+          0% {
+            transform: rotate(2deg);
+          }
+
+          100% {
+            transform: rotate(-2deg);
+          }
+        }
+
+        @keyframes gradientBackground {
+          0% {
+            background-position: 0% 50%;
+          }
+
+          50% {
+            background-position: 100% 50%;
+          }
+
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+        @keyframes fadeIn {
+          0% {
+            opacity: 0;
+          }
+
+          66% {
+            opacity: 0;
+          }
+
+          100% {
+            opacity: 1;
+          }
+        }
+
+        .container {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          margin: 0;
+          width: 100%;
+          height: 200px;
+          gap: 10px;
+
+          font-family:
+            system-ui,
+            -apple-system,
+            'Segoe UI',
+            Roboto,
+            Helvetica,
+            Arial,
+            sans-serif,
+            'Apple Color Emoji',
+            'Segoe UI Emoji';
+
+          background: linear-gradient(
+            -45deg, 
+            #E6F4F1,
+            #F9F8FF,
+            #8C8DB9,
+            #1D63ED
+          );
+          background-size: 600% 200%;
+          animation: gradientBackground 6s;
+          animation-timing-function: ease;
+          border-radius: 10px;
+          color: white;
+          text-align: center;
+        }
+
+        h1 {
+          font-size: 50px;
+          line-height: 1.3;
+          letter-spacing: 5px;
+          text-transform: uppercase;
+          color: #E6F4F1;
+        }
+
+       
+      </style>
+      <div class="container">
+        <div >
+          <svg width="50px" height="50px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- change below. ideias: https://www.svgrepo.com -->
+            <svg fill="#E6F4F1" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 488.893 488.893" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M392.575,132.498c0.555-7.965,2.161-54.19-30.591-90.298C336.597,14.201,298.107,0,247.617,0 c-50.375,0-89.476,14.114-116.222,41.941c-36.873,38.384-35.314,88.463-35.257,89.82v204.131h38.25V131.112 c0-0.364-0.755-36.577,24.901-62.979c19.268-19.823,48.979-29.873,88.328-29.873c39.054,0,67.913,9.878,85.775,29.347 c23.868,26.02,21.048,62.042,21.028,62.3l-0.096,205.986h38.25V132.498z"></path> <polygon points="222,202.018 208.593,259.393 291.261,259.393 277.854,202.018 "></polygon> <polygon points="188.493,345.455 311.361,345.455 295.727,278.518 204.127,278.518 "></polygon> <polygon points="154.976,488.893 344.878,488.893 320.302,383.705 179.552,383.705 "></polygon> </g> </g> </g></svg>
+          </svg>
+        </div>
+        <div>
+          <p> </p>
+        </div>
+        <div >
+          <h1>DROXY</h1>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

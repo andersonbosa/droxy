@@ -1,4 +1,1 @@
-.ssh/*
-id_rsa*
-entrypoint.sh
-docker-compose.yml
+droxy/machine/.ssh/*
