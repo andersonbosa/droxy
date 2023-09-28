@@ -1,7 +1,8 @@
 <section align="center">
 
-  <img src="docs/assets/banner.svg" title="Project banner" alt="Project banner" />
+<img src="docs/assets/banner.svg" title="Project banner" alt="Project banner" />
 
+<br>
 <br>
 
 <p>
@@ -41,6 +42,11 @@ other applications to use SOCKS tunnels.
 1. Create a Docker container on a network used by other services/applications.
 2. Open a SOCKS tunnel with a server (i.e., a VPN)
 
+
+![image](https://github.com/andersonbosa/droxy/assets/8931900/5899248b-3a80-49c9-b79f-333e2cb37572)
+
+![image](https://github.com/andersonbosa/droxy/assets/8931900/9f154645-8038-4cbc-9376-9545e6b264e8)
+
 <h2 id="technologies"> 🛠️ Technologies</h2>
 
 * [Docker](#)
@@ -50,7 +56,6 @@ other applications to use SOCKS tunnels.
 <h2 id="getting-started"> 🚶 Getting Started</h2>
 
 * Checkout the [documentation](docs/index.md)
-
 
 <h2 id="contribution">🤝 Contribution</h2>
 
