@@ -7,12 +7,12 @@
 
 <p>
   <a href="./droxy/.version">
-    <img src="https://img.shields.io/badge/version-0.0.1-yellow.svg?style=flat-square" alt="Version">
+    <img src="https://img.shields.io/badge/version-0.0.1-yellow.svg?style=flat" alt="Version">
   </a>
-  <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" alt="The MIT License">
+  <a href="./LICENSE.md">
+    <img src="https://img.shields.io/badge/license-CC0-white.svg?style=flat" alt="The Public Domain License">
   </a>
-  <img src="https://img.shields.io/github/stars/andersonbosa/droxy?style=flat-square" alt="GitHub Repo stars">
+  <img src="https://img.shields.io/github/stars/andersonbosa/droxy?style=flat" alt="GitHub Repo stars">
 </p>
 
 <br>
@@ -30,7 +30,7 @@
 
 ---
 
-<h2 id="about">💬 About</h2>
+## 💬 About
 
 > SOCKS5 server through SSH tunnel made easy.
 
@@ -47,24 +47,30 @@ other applications to use SOCKS tunnels.
 
 ![image](https://github.com/andersonbosa/droxy/assets/8931900/9f154645-8038-4cbc-9376-9545e6b264e8)
 
-<h2 id="technologies"> 🛠️ Technologies</h2>
+
+## 🛠️ Technologies
 
 * [Docker](#)
 * [Docker Compose](#)
 * [SSH](#)
 
-<h2 id="getting-started"> 🚶 Getting Started</h2>
+
+## 🚶 Getting Started
 
 * Checkout the [documentation](docs/index.md)
 
-<h2 id="contribution">🤝 Contribution</h2>
 
-<p> All kinds of contributions are very welcome and appreciated! </p>
+## 🤝 Contribution
+
+<p>
+  All kinds of contributions are very welcome and appreciated! This project is for study purposes too, so please send me a message telling me what you are doing and why you are doing it, teach me what you know. 
+</p>
 
 
-<h2 id="license"> 📝 License</h2>
+## 📝 License
 
-This project is under the MIT license.
+This project is under the [public domain](LICENSE.md) license.
+
 
 ---
 
